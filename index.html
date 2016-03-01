@@ -8,70 +8,98 @@
 
 
 		<link rel="icon" href="favicon.ico">
-		  	
-		<link href="css/main.css" rel="stylesheet">
-
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/queries.css" rel="stylesheet">
 		<link href="css/animate.css" rel="stylesheet">
 		<link href="css/icomoon.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css">
-
+		<link href="css/utilities.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300,100' rel='stylesheet' type='text/css'>
 
 	</head>
 	<body>
 		<header>
-		  	<nav id="menu" class="navbar navbar-default navbar-fixed-top   navbar-inverse">
-		  		<div class="container-fluid navegador">
-		  			<div class="navbar-header">
-		  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
-		  					<span class="sr-only">Toggle navigation</span>
-		  					<span class="icon-bar"></span>
-		  					<span class="icon-bar"></span>
-		  					<span class="icon-bar"></span>
-		  				</button>
-		  				<a class="navbar-brand" href="#">
-		  					<img src="image/user-r.png" alt="logo" class="logo">
-		  				</a>
-		  			</div>
-		  			<div class="collapse navbar-collapse" id="collapse">
-		  				<ul class="nav navbar-nav navbar-right">
-		  					<li>
-		  						<a href="#servicio" class="page-scroll">¿Qué me ofrece?</a>
-		  					</li>
-		  					<li>
-		  						<a href="#desarrollo" class="page-scroll">¿cómo funciona?</a>
-		  					</li>
-		  					<li>
-		  						<a href="#comprar" class="page-scroll">¿por qué usarlo?</a>
-		  					</li>
-		  					<li>
-		  						<a href="#contacto" class="page-scroll">Contactanos</a>
-		  					</li>
-		  				</ul>
-		  			</div>
-		  		</div>
-		  	</nav>
-		  	<div class="container">
-		  		<h1 class="text-pl">Obtén videos de personas reales utilizando tu sitio web, en 1 Hora</h1>
-		  	</div>
-		  	<div class="hero" id="inicio">
-		  		<div class="overlay"></div>
-		  	</div>
-		  	<div class="fondo-celeste">
-		  		<div class="container">
-		  			<div class="row">
-		  				<div class="col-lg-6 pd-l col-md-6 col-sm-6 col-xs-12 text-center ">
-		  					<h2 class="text-uppercase">Prueba gratuita</h2>
-		  					<h4 class="text-action">Obtén un video gratis de 5 minutos</h4>         
-		  				</div>
-		  				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-		  					<a id="prueba-gratis" href="contact.html" target="_blank" class="btn btn-primary">Pruebalo gratis</a>
-		  				</div>
-		  			</div>
-		  		</div>    
-		  	</div>
+			<div class="opacidad w-100 h-100">
+<!--
+		      <div class="navegador w-100">
+		        <!- - Static navbar - ->
+		        <nav class="navbar-header navbar-fixed-top navbar-inverse">
+		          <div>
+		            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		              <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand logo " href="#">
+		            	<img src="image/user-r.png" alt="logo" class="logo">
+		            </a>
+		          </div>
+
+		          <div class="navbar-collapse collapse" style="height:1px;">
+		            <ul class="nav navbar-nav navbar-right">
+		              <li><a href="#servicio" class="page-scroll">¿Qué me ofrece?</a></li>
+		              <li><a href="#desarrollo" class="page-scroll">¿cómo funciona?</a></li>
+		              <li><a href="#comprar" class="page-scroll">¿por qué usarlo?</a></li>
+		              <li><a href="#contacto" class="page-scroll">Contactanos</a></li>
+		              
+		            </ul>
+		          </div><!- -/.nav-collapse - ->
+		        </nav>
+		      </div>
+			-->
+			  	<nav id="menu" class="container-fluid  navbar-header navbar navbar-default navbar-fixed-top   navbar-inverse navegador">
+			  		<div class="">
+			  			<div>
+			  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+			  					<span class="icon-bar"></span>
+			  					<span class="icon-bar"></span>
+			  					<span class="icon-bar"></span>
+			  				</button>
+			  				<a class="navbar-brand" href="#">
+			  					<img src="image/user-r.png" alt="logo" class="logo">
+			  				</a>
+			  			</div>
+			  			<div class="collapse navbar-collapse" id="collapse">
+			  				<ul class="nav navbar-nav navbar-right">
+			  					<li>
+			  						<a href="#servicio" class="nav-li">¿Qué me ofrece?</a>
+			  					</li>
+			  					<li>
+			  						<a href="#desarrollo" class="nav-li">¿cómo funciona?</a>
+			  					</li>
+			  					<li>
+			  						<a href="#comprar" class="nav-li">¿por qué usarlo?</a>
+			  					</li>
+			  					<li>
+			  						<a href="#contacto" class="nav-li">Contactanos</a>
+			  					</li>
+			  				</ul>
+			  			</div>
+			  		</div>
+			  	</nav>
+
+		
+			  	<div class="container">
+			  		<h1 class="mg-0 text-pl">Obtén videos de personas reales utilizando tu sitio web, en 1 Hora</h1>
+			  	</div>
+			  	<!--
+			  	<div class="hero" id="inicio">
+			  		<div class="overlay"></div>
+			  	</div>-->
+			  	<div class="barra-pruebagratis">
+			  		<div class="container">
+			  			<div class="row">
+			  				<div class="col-lg-6 pd-l col-md-6 col-sm-6 col-xs-12 text-center ">
+			  					<h2 class="text-uppercase">Prueba gratuita</h2>
+			  					<h4 class="text-action">Obtén un video gratis de 5 minutos</h4>         
+			  				</div>
+			  				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			  					<a id="prueba-gratis" href="contact.html" target="_blank" class="btn btn-primary">Pruebalo gratis</a>
+			  				</div>
+			  			</div>
+			  		</div>    
+			  	</div>
+			</div>
 		</header>
 		<section id="servicio">
 		  	<div class="container">
