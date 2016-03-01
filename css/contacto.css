@@ -1,0 +1,108 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0,
+}
+
+header{
+	height: 100%;
+	width: 100%;
+	background-image: url(../image/large.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+}
+
+.contacto{
+	width: 50%;
+	border-top: 5px solid #73A1D9;
+	margin: auto;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 5px gray;
+	
+	box-sizing: border-box;
+}
+
+.contacto-pad{
+	padding: 0 10%;
+}
+
+h3{
+	font-family: serif;
+    margin: 0;
+}
+
+hr{
+    margin: 8px 0 12px;
+    border-color: #AFAFAF;
+}
+
+.form{
+	padding-right: 20%;
+}
+
+.form .row{
+	margin: 0;
+	padding-bottom: 2%;
+}
+
+.form label{
+	float: left;
+	font-weight: bold;
+	color: black;
+	font-size: 13px;
+}
+
+.form label span{
+	color:red;
+
+}
+
+.form input{
+	float: right;
+	width: 65%;
+	font-size: 13px;
+	
+}
+
+.input-largo{
+	height: 65px;
+}
+
+input.empty , input.enviar {
+	float: none;
+	margin: auto;
+}
+
+input.enviar{
+	color: white;
+	background-color: #74A3DB;
+	width: 86px;
+	border: none;
+	border-radius: 3px;
+	margin-left: 35%
+}
+
+input.empty{
+	margin-left: 35%
+}
+
+
+.contacto p{
+	font-family: serif;
+	color: black;
+	font-size: 15px;
+	padding: 3% 1% 0 1%;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.f-right{
+	float: right;
+}
+.contacto p a{
+	font-size: 13px;
+	color: black;
+	text-decoration: underline;
+}
