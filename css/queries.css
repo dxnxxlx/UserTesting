@@ -5,15 +5,18 @@
 }
 
 @media (min-width: 768px) {
-
+  .navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+    padding: 10px 25px;
+    font-size: 2.4rem;
+    }
+  
 }
 
 
 
-@media (min-width: 992px) and (max-width: 992px){
- .form{
- 	padding-right: 0;
- }
+@media (min-width: 992px){
+
 
 }
 
@@ -23,6 +26,46 @@
 
 }
 
+@media (min-width: 1115px) and (max-width: 1253px) {
+  .navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+    padding: 0px 25px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1114px) {
+  .navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+    padding: 0px 25px;
+  }
+
+
+
+  .navbar-right {
+    float: none;
+    margin-right: -15px;
+    text-align: center;
+    padding-top: 45px;
+  }
+
+  .container h1 {
+    margin-top: 33%;
+    padding-left: 6%;
+    padding-right: 6%;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 913px) {
+  .navbar-inverse .navbar-nav>li>a {
+    padding: 0px 6px;
+}
+
+}
 
 @media (max-width: 992px){
  .form{
@@ -36,7 +79,13 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
+  .cont{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
   .form{
   	padding-left: 15%;
   	padding-right: 15%;
@@ -57,11 +106,22 @@
     width: 85%;
   }
 
-	
+	  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
 }
 
 
 @media (max-width: 480px) {
+
+.logo {
+  padding-top: 23px;
+}
+
  .f-right{
  	float: none;
  }
@@ -78,5 +138,46 @@
     padding-right: 5%;
 }
 
+.navbar-brand {
+  float: none;
+}
+
+.titulo-grande{
+  margin-top: 30%;
+  font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  font-size: 1.5rem;
+}
+h2{
+  font-size: 25px;
+}
+
+h4{
+  font-size: 15px;
+}
+
+.btn-primary {
+    font-size: 21px;
+    margin-left: 11%;
+    margin-bottom: 5%;
+}
+
+.separador {
+  left: 34%;
+}
+.separador-2 {
+  left: 34%;
+}
+
+.iconos-redes {
+  text-align: center;
+}
+
+.xs-footer{
+  text-align: center;
+}
+}
 
 
