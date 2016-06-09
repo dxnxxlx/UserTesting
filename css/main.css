@@ -38,12 +38,14 @@ header{
  }
 
 .navbar-toggle {
-   margin-top: 37px;
+    margin-top: 37px;
+    margin-right: 13%;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     padding-top: 3%;
     padding-bottom: 3%;
+    padding-right: 5%;
 }
 
 
@@ -68,6 +70,7 @@ header{
 .logo{
     padding-top: 30px;
     width: 62%;
+    padding-left: 13%;
 }
 
 .logo-2 {
